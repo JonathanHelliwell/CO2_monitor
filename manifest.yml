@@ -1,0 +1,6 @@
+---
+    applications:
+     - name: CO2MonitorApp
+       random-route: true
+       memory: 512M
+    
