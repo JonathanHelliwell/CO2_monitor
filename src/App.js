@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import PlotCO2 from './components/PlotCo2';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         >
           I AM ALIVE
         </a>
+        <div>
+          <PlotCO2 />
+        </div>
       </header>
     </div>
   );
